@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp" >
+
+		<Button
+		    android:id="@+id/btBack"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/selector_back_button"
+		    android:drawablePadding="5dp"
+		    android:drawableRight="@drawable/goat_3"
+		    android:onClick="backClick"
+		    android:paddingLeft="5dp"
+		    android:paddingRight="10dp"
+		    android:text="‹"
+		    android:textColor="@android:color/white"
+		    android:textSize="60dp" />
+            
+           <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvNoTask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/number_of_task"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/tvTaskNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="20"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold"
+                android:paddingLeft="7dp"
+                android:textSize="30dp" />
+           </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="50dip"
+        android:paddingBottom="5dp">
+        
+	    <TextView
+	        android:id="@+id/tvTaskDescription"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Message"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    
+    </ScrollView>
+
+</LinearLayout>
+</merge>

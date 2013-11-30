@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.zgora.andre.poznanlbgame"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk android:minSdkVersion="15" />
+    
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".StartActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:label="@string/app_name"
+            android:name=".TakePhotoActivity"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        </activity>
+        <activity 
+            android:label="@string/app_name"
+            android:name=".TaskAnswerActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity 
+            android:label="@string/app_name"
+            android:name=".TaskPlaceActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity 
+            android:label="@string/app_name"
+            android:name=".TaskArchElemActivity"
+            android:launchMode="standard"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity 
+            android:label="@string/app_name"
+            android:name=".TaskFinished"
+            android:launchMode="standard"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity 
+            android:label="@string/app_name"
+            android:name=".EndActivity"
+            android:launchMode="standard"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <service android:name=".util.SIFTAlgorithmService" />
+        
+    </application>
+
+</manifest>

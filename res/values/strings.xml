@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Poznań: gra miejska</string>
+    <string name="new_game">Nowa gra</string>
+    <string name="resume_game">Wznów grę</string>
+    <string name="exit">Zakończ</string>
+    <string name="properties">Ustawienia</string>
+    <string name="help">Pomoc</string>
+    <string name="about_app">O aplikacji</string>
+    <string name="take_photo">Zrób zdjęcie</string>
+    <string name="answer">Odpowiedź</string>
+    <string name="good_answer">Poprawna odpowiedź</string>
+    <string name="wrong_answer">Zła odpowiedź</string>
+    <string name="ok">OK</string>
+    <string name="number_of_task">Zadanie nr</string>
+    <string name="gps_info">Do rozwiązania tej zagadki wykorzystywane są współrzędne GPS.</string>
+    <string name="next">Dalej</string>
+    <string name="thats_all">Koniec gry!</string>
+    <string name="ending_info">Gratulacje, udało Ci się rozwiązać wszystkie zagadki! Mam nadzieję, że miło będziesz wspominać swój poświęcony czas oraz Twoja wiedza poszerzyła się o kilka ciekawych faktów związanych z Poznaniem.\n\nW razie pytań, wrażeń lub sugestii dotyczących działania aplikacji, możesz skontaktować się z autorem:\n\nandre@wmi.amu.edu.pl\n\nW zagadkach wykorzystano materiały zgromadzone w:\n * \&quot;Podróż w czasie. Poznań\&quot; - Krzysztof Smura,\n * \&quot;365 zagadek o Poznaniu\&quot; - Włodzimierz Łęcki,\n * http://pl.wikipedia.org</string>
+    <string name="no_backface_camera">Nie wykryto tylnej kamery. Aplikacja może nie działać poprawnie.</string>
+    <string name="loading_data">Wczytywanie danych...</string>
+    <string name="camera_failed">Wystąpił błąd podczas próby podłączenia się do kamery. Spróbuj ponownie wykonać akcję.</string>
+    <string name="photo_processing">Przetwarzanie zdjęcia...</string>
+    <string name="wrong_photo">Niestety zdjęcie nie przedstawia szukanego obiektu</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="sure_to_start_new_game">Czy na pewno chcesz rozpocząć nową grę?</string>
+    <string name="info_about_app">Autor: Andrzej Wójtowicz\n\tandre@wmi.amu.edu.pl\n\nAplikacja wykonana w ramach projektu magisterskiego \&quot;Rozpoznawanie obiektów na podstawie bazy wiedzy\&quot; oraz projektu zaliczeniowego z przedmiotu \&quot;Laboratorium systemów mobilnych\&quot;.\n\nRysunki: Jakub Mrożek\n\tj_mrozek@interia.pl\n\nIkony: Oxygen\n\thttp://www.oxygen-icons.org</string>
+    <string name="tutorial">Samouczek</string>
+    <string name="tutorial_text">Poznań jest miastem, które od wieków skrywało wiele tajemnic. W aplikacji zawarto kilkanaście zagadek sprawdzających wiedzę z dalszej i współczesnej historii stolicy Wielkopolski.  Każde zadanie może sprowadzać się do jednego z trzech typów akcji: krótkiej odpowiedzi pisemnej, przejścia do zadanego miejsca lub zrobienia zdjęcia szukanemu szczegółowi architektonicznemu.\n\nPamiętaj, że złapanie pierwszego sygnału GPS może zająć nawet kilka minut, dlatego już przed rozgrywką uruchom odbiornik GPS.</string>
+    <string name="gps_enable">Aby rozwiązać tę zagadkę musisz włączyć odbiornik GPS</string>
+
+</resources>
