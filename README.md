@@ -1,8 +1,8 @@
-Poznañ Location Based Game
+Poznan Location Based Game
 ==========================
 
-The project created within Master thesis: "Objects recognition based on the knowledge–base. An Android application supporting location–based games".
+The project created within Master thesis: "Objects recognition based on the knowledgeâ€“base. An Android application supporting locationâ€“based games".
 
-It was developed with OpenCV 2.4.0 and under Android API level 15.
+It was developed with OpenCV 2.4.0 (mostly using Scale-invariant feature transform - SIFT) and under Android API level 15.
 
-More info on page: http://min.wmi.amu.edu.pl/dydaktyka/prace-magisterskie/
+PDF with thesis in Polish: http://andre.faculty.wmi.amu.edu.pl/master_thesis/AW_SIFT_ANDROID.pdf
